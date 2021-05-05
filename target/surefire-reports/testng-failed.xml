@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="Listeners"/>
+  </listeners>
+  <test name="E2E Project(failed)" parallel="classes">
+    <classes>
+      <class name="HomePage">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- HomePage -->
+      <class name="ValidateTitle">
+        <methods>
+          <include name="validation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- ValidateTitle -->
+    </classes>
+  </test> <!-- E2E Project(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

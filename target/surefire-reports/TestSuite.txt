@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.013 s <<< FAILURE! - in TestSuite
+ValidateTitle.validation  Time elapsed: 11.74 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [FEATURED COURSES123] but found [FEATURED COURSES]
+	at ValidateTitle.validation(ValidateTitle.java:23)
+

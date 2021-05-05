@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Listeners"/>
+    </listeners>
+    <test name="E2E Project" parallel="classes">
+        <classes>
+            <class name="HomePage"/>
+            <class name="ValidateTitle"/>
+        </classes>
+    </test>
+</suite>
