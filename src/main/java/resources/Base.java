@@ -1,6 +1,5 @@
 package resources;
 
-//import com.sun.jna.platform.FileUtils;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
